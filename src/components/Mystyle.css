@@ -139,6 +139,11 @@ button {
     border: 2px solid black;
     padding: 7px 7px;
     border-radius: 10px;
+    transition: 0.34s all;
+    &:hover{
+        transform: translateY(-5px);
+        cursor: pointer;
+    }
 }
 .about-image {
     height: 400px;
@@ -191,7 +196,7 @@ button {
     }
 }
 .Contact-container{
-    width: 60%;
+    width: 50%;
     margin: auto;
     text-align: center;
     display: flex;
@@ -202,20 +207,25 @@ button {
     align-items: center;
     margin-top: 30px;
 }
-.Contact-container>input{
-    padding: 5px 30px;
-}
 .input-fields{
-    display: flex;
-    gap: 22px;
-    justify-content: space-between;
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  gap: 5%;
 }
 .input-fields>input{
     font-size: 16px;
     font-weight: 800;
-    padding: 10px 30px;
+    padding: 10px 10px;
     border-radius: 10px;
     border: 1px solid gray;
+    width: 37%;
+    outline: none;
+}
+.contact-textarea{
+    display: flex;
+    width: 80%;
+    outline: none;
 }
 .service-div{
     height: 270px;

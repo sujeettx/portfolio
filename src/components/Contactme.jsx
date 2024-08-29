@@ -22,8 +22,9 @@ function Contactme() {
         <input placeholder="Enter your email" />
       </div>
       <textarea
+      className="contact-textarea"
         placeholder="Enter your message"
-        cols={55}
+        //  cols={55}
         rows={10}
         style={{
           padding: "10px",
