@@ -2,6 +2,7 @@ import React from "react";
 import image from "./assets/image.jpeg";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
+const myResume = require('./assets/Sujeet Resume .pdf');
 function Home() {
   return (
     <div className="home-container">
@@ -32,7 +33,7 @@ function Home() {
           <ArrowForwardIcon />
         </div>
         <div className="btn">
-          <h3><button>My Resume</button></h3>
+          <h3><a href={myResume} download='Sujeet_Kushwaha_Resume.pdf'>My resume</a></h3>
           <ArrowDownwardIcon />
         </div>
       </div>

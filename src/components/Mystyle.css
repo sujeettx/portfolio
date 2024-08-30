@@ -50,10 +50,14 @@ button {
     font-weight: 400;
     font-size: 17px;
     cursor: pointer;
+    color: black;
     &:hover {
         background: linear-gradient(to right, rgb(215, 8, 184), rgb(220, 146, 7));
-        color: white;
+        color: white !important;
     }
+}
+.btn a{
+   all: unset;
 }
 .home-container {
     margin-top: 60px;
