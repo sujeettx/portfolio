@@ -1,10 +1,13 @@
 import React from "react";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import { useNavigate } from "react-router";
 const portifolio = require('./assets/portfolioimage.webp')
 const chatApp =  require('./assets/chat-image.jpg');
 const sportClub = require('./assets/sport-image.jpg');
 const weatherApp = require('./assets/frontend-image.avif');
+
 function Work() {
+  const navigate = useNavigate()
   return (
     <div className="work-container Contact-container">
       <p>Workplace</p>
@@ -28,7 +31,7 @@ function Work() {
         <img src={portifolio} alt=""/>
         </div>
       </div>
-      <div className="btn work-btn" style={{backgroundColor:'black',color:"white"}}>
+      <div className="btn work-btn" onClick={()=>navigate('/')} style={{backgroundColor:'black',color:"white"}}>
        <h3> <button>Show more </button></h3>
         <ArrowForwardIcon/>
       </div>

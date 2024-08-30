@@ -6,6 +6,7 @@ const whatsappLogo = require("./assets/whatsapp.png");
 const linkdlinLogo = require("./assets/linkedin.png");
 const githubLogo = require("./assets/github.png");
 function Contactme() {
+  const navigate = useNavigate();
   return (
     <div className="Contact-container">
       <p>Connect With me</p>
@@ -34,6 +35,7 @@ function Contactme() {
         }}
       />
       <div
+      onClick={()=>navigate("/")}
         className="btn"
         style={{
           backgroundColor: "black",

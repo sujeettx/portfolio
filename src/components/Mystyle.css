@@ -13,16 +13,21 @@ button {
 }
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 10px;
+    gap: 140px;
 }
 .navbar>h1{
    color: red;
    font-weight: 900;
-   font-size: 40px;
+   font-size: 45px;
+}
+.nav-content1>.btn{
+    height: 45px;
+    margin-top: 7px;
+    padding: 10px 16px;
 }
 .nav-content {
-    margin-left: 110px;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -33,6 +38,7 @@ button {
     padding: 10px 20px;
     height: 50px;
     font-weight: 640;
+    font-size: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .nav-content1 {
@@ -251,14 +257,18 @@ button {
 .work-btn>button{
     align-items: center;
 }
-.work-div>img{
-    height: 100%;
+.work-div img{
+    height: 120%;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
     border-radius: 10px;
 }
 .service-div{
     transition: 0.25s all;
 }
 .service-div:hover{
+    transform: rotateY(180deg);
     transform: translateY(-5px);
     box-shadow: 5px 5px 5px black;
 }

@@ -1,9 +1,11 @@
 import React from "react";
 import image from "./assets/image.jpeg";
+import { useNavigate } from "react-router";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 const myResume = require('./assets/Sujeet Resume .pdf');
 function Home() {
+  const navigate = useNavigate();
   return (
     <div className="home-container">
       <div className="home-child-1">
@@ -22,6 +24,7 @@ function Home() {
       </div>
       <div className="home-child-3">
         <div
+        onClick={()=>navigate('contact')}
           className="btn"
           style={{
             background:
