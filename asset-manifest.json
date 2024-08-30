@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/sujeettx/portfolio/static/css/main.d5231ca0.css",
-    "main.js": "/sujeettx/portfolio/static/js/main.8b790f64.js",
-    "static/js/453.ddd23db4.chunk.js": "/sujeettx/portfolio/static/js/453.ddd23db4.chunk.js",
-    "static/media/image.jpeg": "/sujeettx/portfolio/static/media/image.37d8637b07376c277a9a.jpeg",
-    "static/media/image2.jpg": "/sujeettx/portfolio/static/media/image2.1d74654b8649415db2b1.jpg",
-    "static/media/chat-image.jpg": "/sujeettx/portfolio/static/media/chat-image.49ff2bb7b94564f70702.jpg",
-    "static/media/portfolioimage.webp": "/sujeettx/portfolio/static/media/portfolioimage.7369e7c2c12209ba3d65.webp",
-    "static/media/Sujeet Resume .pdf": "/sujeettx/portfolio/static/media/Sujeet Resume .355ead6a4675141eb80a.pdf",
-    "static/media/sport-image.jpg": "/sujeettx/portfolio/static/media/sport-image.5c134764b9967a65e0cf.jpg",
-    "static/media/frontend-image.avif": "/sujeettx/portfolio/static/media/frontend-image.06e9d611de7e3f0c2c3d.avif",
-    "index.html": "/sujeettx/portfolio/index.html",
-    "main.d5231ca0.css.map": "/sujeettx/portfolio/static/css/main.d5231ca0.css.map",
-    "main.8b790f64.js.map": "/sujeettx/portfolio/static/js/main.8b790f64.js.map",
-    "453.ddd23db4.chunk.js.map": "/sujeettx/portfolio/static/js/453.ddd23db4.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.d5231ca0.css",
+    "main.js": "/portfolio/static/js/main.deac11a3.js",
+    "static/js/453.ddd23db4.chunk.js": "/portfolio/static/js/453.ddd23db4.chunk.js",
+    "static/media/image.jpeg": "/portfolio/static/media/image.37d8637b07376c277a9a.jpeg",
+    "static/media/image2.jpg": "/portfolio/static/media/image2.1d74654b8649415db2b1.jpg",
+    "static/media/chat-image.jpg": "/portfolio/static/media/chat-image.49ff2bb7b94564f70702.jpg",
+    "static/media/portfolioimage.webp": "/portfolio/static/media/portfolioimage.7369e7c2c12209ba3d65.webp",
+    "static/media/Sujeet Resume .pdf": "/portfolio/static/media/Sujeet Resume .355ead6a4675141eb80a.pdf",
+    "static/media/sport-image.jpg": "/portfolio/static/media/sport-image.5c134764b9967a65e0cf.jpg",
+    "static/media/frontend-image.avif": "/portfolio/static/media/frontend-image.06e9d611de7e3f0c2c3d.avif",
+    "index.html": "/portfolio/index.html",
+    "main.d5231ca0.css.map": "/portfolio/static/css/main.d5231ca0.css.map",
+    "main.deac11a3.js.map": "/portfolio/static/js/main.deac11a3.js.map",
+    "453.ddd23db4.chunk.js.map": "/portfolio/static/js/453.ddd23db4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5231ca0.css",
-    "static/js/main.8b790f64.js"
+    "static/js/main.deac11a3.js"
   ]
 }
