@@ -28,11 +28,11 @@ function Home() {
             color: "white",
           }}
         >
-          <button>Connect me</button>
+          <h3><button>Connect me</button></h3>
           <ArrowForwardIcon />
         </div>
         <div className="btn">
-          <button>My Resume</button>
+          <h3><button>My Resume</button></h3>
           <ArrowDownwardIcon />
         </div>
       </div>

@@ -21,7 +21,7 @@ function Nav() {
             <BedtimeIcon/>
           </Button>
         <div className='btn' onClick={()=>navigate('/contact')}>
-          <button>Contact</button>
+          <h3><button>Contact</button></h3>
           <ArrowOutwardIcon/>
         </div>
       </div>

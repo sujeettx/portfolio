@@ -40,12 +40,13 @@ button {
     justify-content: space-between;
 }
 .btn {
-    border: 1px solid gray;
-    padding: 7px 30px;
-    border-radius: 30px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    align-content: center;
-    text-align: center;
+    gap: 4px;
+    border: 1px solid gray;
+    padding: 10px 25px;
+    border-radius: 30px;
     font-weight: 400;
     font-size: 17px;
     cursor: pointer;

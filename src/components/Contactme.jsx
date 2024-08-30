@@ -41,7 +41,7 @@ function Contactme() {
           color: "white",
         }}
       >
-        <button>Submit now</button>
+        <h3><button>Submit now</button></h3>
         <ArrowForwardIcon />
       </div>
       <div className="contact-social-icon">

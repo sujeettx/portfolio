@@ -29,7 +29,7 @@ function Work() {
         </div>
       </div>
       <div className="btn work-btn" style={{backgroundColor:'black',color:"white"}}>
-        <button>Show more </button>
+       <h3> <button>Show more </button></h3>
         <ArrowForwardIcon/>
       </div>
     </div>
