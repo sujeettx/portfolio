@@ -23,36 +23,43 @@ function Work() {
             <img src={portifolio} alt="" />
           </div>
           <div className="back-card">
-            <h2>back side</h2>
+            <h2>Portfolio</h2>
+            <h4>technology used react css materail ui for icon</h4>
+            <h3>Want to see Work</h3>
+            <button>See</button>
           </div>
         </div>
-
-
         <div className="flip-card">
           <div className="front-card">
             <img src={chatApp} alt="" />
           </div>
           <div className="back-card">
-            <h2>back side</h2>
+          <h2>Chat-Application</h2>
+          <h4>technology used mern (react, express mongoDB , nodejs)</h4>
+          <h3>Want to see work</h3>
+          <button>See</button>
           </div>
         </div>
-
-
         <div className="flip-card">
           <div className="front-card">
             <img src={weatherApp} alt="" />
           </div>
           <div className="back-card">
-            <h2>back side</h2>
+          <h2>Weather App </h2>
+          <h4>technology used html css javascript api call</h4>
+          <h3>want to see work</h3>
+          <button>See</button>
           </div>
         </div>
-
         <div className="flip-card">
           <div className="front-card">
             <img src={sportClub} alt="" />
           </div>
           <div className="back-card">
-            <h2>back side</h2>
+          <h2>Sport-club Application</h2>
+          <h4>technology used html and css</h4>
+          <h3>Want to see work </h3>
+          <button>See</button>
           </div>
         </div>
 

@@ -297,7 +297,20 @@ button {
   
   .back-card {
     transform: rotateY(-180deg);
-    background-color: rgb(97, 7, 171);
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    gap: 20px;
+  }
+  .back-card>button{
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color:whitesmoke;
+    color: black;
+    padding: 10px 30px;
+
   }
 
   .flip-card:hover {
