@@ -257,8 +257,23 @@ button {
 .work-btn>button{
     align-items: center;
 }
-.work-div img{
-    height: 120%;
+
+.work-boxes{
+    display: flex;
+    gap: 20px;
+    /* border: 2px solid black; */
+}
+.work-boxes .work-boxes-child{
+    height: 300px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.work-boxes-child img{
+    height: 100%;
+    border-radius: 20px;
     object-fit: cover;
     object-position: center;
     width: 100%;
@@ -303,4 +318,3 @@ button {
     gap: 50px;
     display: flex;
 } 
-

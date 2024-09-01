@@ -17,18 +17,18 @@ function Work() {
         collection of projects showcasing my <br />
         experties in full stack development
       </p>
-      <div className="right-child-child">
-        <div className="right-child-div service-div work-div">
-          <img src={sportClub} alt=""/>
+      <div className="work-boxes">
+        <div className="work-boxes-child">
+          <img src={portifolio} alt=""/>
         </div>
-        <div className="right-child-div service-div work-div">
+        <div className="work-boxes-child">
         <img src={chatApp} alt=""/>
         </div>
-        <div className="right-child-div service-div work-div">
-        <img src={weatherApp} alt=""/>
+        <div className="work-boxes-child">
+        <img src={sportClub} alt=""/>
         </div>
-        <div className="right-child-div service-div work-div">
-        <img src={portifolio} alt=""/>
+        <div className="work-boxes-child">
+        <img src={weatherApp} alt=""/>
         </div>
       </div>
       <div className="btn work-btn" onClick={()=>navigate('/')} style={{backgroundColor:'black',color:"white"}}>
