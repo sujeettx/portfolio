@@ -2,6 +2,8 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import React, { useState } from "react";
 // import { useNavigate } from "react-router";
 import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const instagramLogo = require("./assets/instagram.png");
 const whatsappLogo = require("./assets/whatsapp.png");
@@ -28,14 +30,17 @@ function Contactme() {
     try {
       const response = await axios.post('http://localhost:5000/message', formData);
       console.log('Message sent successfully:', response.data);
-      // Handle success (e.g., show a success message, clear form, etc.)
+      toast.success("Hi dude, your details have been saved. I'll contact you soon...");
+      // Handle success (e.g., clear form)
     } catch (error) {
       console.error('Error sending message:', error);
-      // Handle error (e.g., show an error message)
+      toast.error("Oops! you have been already send the message.");
+      // Handle error
     }
   };
   return (
     <div className="Contact-container">
+      <ToastContainer />
       <p>Connect With me</p>
       <h1>Get in touch</h1>
       <p>
