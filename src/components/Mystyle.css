@@ -87,8 +87,14 @@ button {
     height: 160px;
     width: 160px;
     border-radius: 50%;
-    object-fit: cover;
-    object-position: center;
+    object-fit:cover;
+    object-position: top;
+    overflow: hidden;
+}
+.home-child-1>.home-image>img{
+    height: 150%;
+    width: 150%;
+
 }
 .home-child-2 {
     margin-top: 10px;
@@ -296,11 +302,12 @@ button {
   }
   
   .back-card {
+    padding: 10px 40px;
     transform: rotateY(-180deg);
-    background-color:black;
+    background: linear-gradient(to right, rgb(215, 8, 184), rgb(220, 146, 7));
     display: flex;
     flex-direction: column;
-    color: whitesmoke;
+    color: white;
     gap: 20px;
   }
   .back-card>button{

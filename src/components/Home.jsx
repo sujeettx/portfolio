@@ -1,5 +1,5 @@
 import React from "react";
-import image from "./assets/image.jpeg";
+import image from "./assets/image1.jpg";
 import { useNavigate } from "react-router";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
