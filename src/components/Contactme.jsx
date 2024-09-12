@@ -28,7 +28,7 @@ function Contactme() {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:5000/message', formData);
+      const response = await axios.post('https://backend-l7hk.onrender.com/message', formData);
       console.log('Message sent successfully:', response.data);
       toast.success("Hi dude, your details have been saved. I'll contact you soon...");
       // Handle success (e.g., clear form)
